@@ -22,11 +22,11 @@ a {
 }
 
 /* временно для pixel perfect */
-/* html {
+html {
   scrollbar-gutter: stable;
 }
 
 body {
   width: 1440px;
   margin: 0 auto;
-} */
+}

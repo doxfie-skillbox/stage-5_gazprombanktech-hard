@@ -7,8 +7,8 @@
 
 /* Blocks */
 /* ------------------------------------ */
-@import "blocks/header.css";
 @import "blocks/btn.css";
+@import "blocks/header.css";
 @import "blocks/hero.css";
 @import "blocks/advantages.css";
 @import "blocks/card-advantages.css";
