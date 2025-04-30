@@ -11,6 +11,9 @@
 @import "blocks/header.css";
 @import "blocks/hero.css";
 @import "blocks/advantages.css";
+@import "blocks/payment.css";
 @import "blocks/card-advantages.css";
+@import "blocks/card-advantages-additional.css";
+@import "blocks/payment-steps.css";
 @import "blocks/socials.css";
 @import "blocks/footer.css";

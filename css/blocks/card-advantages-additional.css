@@ -1,0 +1,33 @@
+.card-advantages-additional {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+}
+
+.card-advantages-additional__icon {
+  display: flex;
+  width: 64px;
+  height: 64px;
+  padding: 16px;
+  margin: 0 0 20px;
+  border-radius: 12px;
+  background-color: #476BF0;
+}
+
+.card-advantages-additional__title {
+  margin: 0 0 12px;
+  font-weight: 700;
+  font-size: 24px;
+  line-height: 28px;
+  color: #1E222E;
+  text-align: center;
+}
+
+.card-advantages-additional__text {
+  margin: 0;
+  font-size: 15px;
+  line-height: 20px;
+  text-align: center;
+  color: #696E82;
+}
