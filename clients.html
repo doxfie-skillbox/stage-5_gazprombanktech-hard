@@ -313,10 +313,7 @@
                   </defs>
                 </svg>
               </div>
-              <div class="payment-steps__titles">
-                <span class="payment-steps__title payment-steps__title-first">Оплачивайте</span>
-                <span class="payment-steps__title">покупки</span>
-              </div>
+              <span class="payment-steps__title payment-steps__title--fourth">Оплачивайте покупки</span>
               <span class="payment-steps__text">без ввода реквизитов карты</span>
             </div>
           </li>
@@ -324,12 +321,58 @@
       </div>
     </section>
     <!-- Размещение на сайтах -->
+    <section class="placement">
+      <div class="container">
+        <h2 class="placement__title">Кнопка оплаты Gazprom Pay уже на&nbsp;более 1000 сайтах</h2>
+        <ul class="placement__list">
+          <li class="placement__item">
+            <div class="placement__card">
+              <div class="placement__card-wrapper">
+                <img class="placement__card-image" src="images/image-placement-1.png" width="286" height="326"
+                  alt="Логотип Федеральной налоговой службы России">
+              </div>
+              <span class="placement__card-title">ФНС</span>
+              <p class="placement__card-text">Федеральная налоговая служба</p>
+            </div>
+          </li>
+          <li class="placement__item">
+            <div class="placement__card">
+              <div class="placement__card-wrapper">
+                <img class="placement__card-image" src="images/image-placement-2.png" width="286" height="326"
+                  alt="Логотип страховой компании Согаз">
+              </div>
+              <span class="placement__card-title">СОГАЗ</span>
+              <p class="placement__card-text">Лидер российского страхового рынка</p>
+            </div>
+          </li>
+          <li class="placement__item">
+            <div class="placement__card">
+              <div class="placement__card-wrapper">
+                <img class="placement__card-image" src="images/image-placement-3.png" width="286" height="326"
+                  alt="Логотип НТВ-Плюс — спутникового телевидения">
+              </div>
+              <span class="placement__card-title">НТВ-ПЛЮС</span>
+              <p class="placement__card-text">Оператор спутникового телевидения</p>
+            </div>
+          </li>
+          <li class="placement__item">
+            <div class="placement__card">
+              <div class="placement__card-wrapper">
+                <img class="placement__card-image" src="images/image-placement-4.png" width="286" height="326"
+                  alt="Логотип портала Госуслуги">
+              </div>
+              <span class="placement__card-title">Госуслуги</span>
+              <p class="placement__card-text">Портал государственных услуг Российской Федерации</p>
+            </div>
+          </li>
+        </ul>
+      </div>
+    </section>
   </main>
   <footer class="footer">
     <div class="container">
       <div class="footer__wrapper">
         <div class="footer__contacts">
-          <!-- TODO задать display: inline-block ссылке-->
           <a class="footer__logo" href="#" aria-label="Ссылка на главную - Gazprom Pay">
             <svg xmlns="http://www.w3.org/2000/svg" width="157" height="56" fill="none">
               <g fill="#0079C2" clip-path="url(#a)">
@@ -345,30 +388,34 @@
               </defs>
             </svg>
           </a>
-          <div class="footer__contact">
-            <div class="footer__text footer__contact-text">Бесплатно по&nbsp;России</div>
-            <a class="footer__contact-link" href="tel:+78001000701">8&nbsp;800&nbsp;100 07&nbsp;01</a>
-          </div>
-          <div class="footer__contact">
-            <div class="footer__text footer__contact-text">Бесплатно с&nbsp;мобильных</div>
-            <a class="footer__contact-link" href="tel:400">400</a>
-          </div>
-          <div class="footer__callback">
-            <span class="footer__text footer__callback-text">Есть жалобы и&nbsp;предложения?</span>
-            <button class="footer__btn btn btn--callback" type="button">
-              Обратная связь
-            </button>
-          </div>
-          <div class="footer__location">
-            <span class="footer__text footer__location-text">Ваше местоположение</span>
-            <a class="footer__location-link" href="#">
-              <svg width="16" height="16" viewBox="0 0 16 16" fill="none" xmlns="http://www.w3.org/2000/svg">
-                <path fill-rule="evenodd" clip-rule="evenodd"
-                  d="M13.6869 2.31309C13.8296 2.45582 13.8725 2.67037 13.7957 2.85702L9.12901 14.1903C9.05236 14.3765 8.87154 14.4985 8.67024 14.5C8.46893 14.5014 8.28639 14.382 8.20709 14.1969L6.28588 9.7141L1.80304 7.79288C1.61801 7.71358 1.49858 7.53104 1.50001 7.32974C1.50145 7.12843 1.62348 6.94762 1.80963 6.87097L13.143 2.2043C13.3296 2.12745 13.5442 2.17036 13.6869 2.31309ZM3.29081 7.34253L6.86363 8.87373C6.98163 8.92431 7.07566 9.01834 7.12624 9.13635L8.65745 12.7092L12.4141 3.58588L3.29081 7.34253Z"
-                  fill="#476BF0" />
-              </svg>
-              <span class="footer__location-text">Москва</span>
-            </a>
+          <div class="footer__contacts-wrapper">
+            <div class="footer_contacts-numbers">
+              <div class="footer_contacts-number">
+                <div class="footer__text footer__contact-text">Бесплатно по&nbsp;России</div>
+                <a class="footer__contact-link" href="tel:+78001000701">8&nbsp;800&nbsp;100 07&nbsp;01</a>
+              </div>
+              <div class="footer_contacts-number">
+                <div class="footer__text footer__contact-text">Бесплатно с&nbsp;мобильных</div>
+                <a class="footer__contact-link" href="tel:400">400</a>
+              </div>
+            </div>
+            <div class="footer__callback">
+              <span class="footer__text footer__callback-text">Есть жалобы и&nbsp;предложения?</span>
+              <button class="footer__btn btn btn--callback" type="button">
+                Обратная связь
+              </button>
+            </div>
+            <div class="footer__location">
+              <span class="footer__text footer__location-text">Ваше местоположение</span>
+              <a class="footer__location-link" href="#">
+                <svg width="16" height="16" viewBox="0 0 16 16" fill="none" xmlns="http://www.w3.org/2000/svg">
+                  <path fill-rule="evenodd" clip-rule="evenodd"
+                    d="M13.6869 2.31309C13.8296 2.45582 13.8725 2.67037 13.7957 2.85702L9.12901 14.1903C9.05236 14.3765 8.87154 14.4985 8.67024 14.5C8.46893 14.5014 8.28639 14.382 8.20709 14.1969L6.28588 9.7141L1.80304 7.79288C1.61801 7.71358 1.49858 7.53104 1.50001 7.32974C1.50145 7.12843 1.62348 6.94762 1.80963 6.87097L13.143 2.2043C13.3296 2.12745 13.5442 2.17036 13.6869 2.31309ZM3.29081 7.34253L6.86363 8.87373C6.98163 8.92431 7.07566 9.01834 7.12624 9.13635L8.65745 12.7092L12.4141 3.58588L3.29081 7.34253Z"
+                    fill="#476BF0" />
+                </svg>
+                <span class="footer__location-city">Москва</span>
+              </a>
+            </div>
           </div>
         </div>
         <div class="footer__audiences">
@@ -458,7 +505,7 @@
                 </clipPath>
               </defs>
             </svg>
-            <span class="footer__language-title">English version</span>
+            <span class="footer__language-title footer__text">English version</span>
           </a>
         </div>
       </div>
