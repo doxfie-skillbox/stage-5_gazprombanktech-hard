@@ -14,7 +14,7 @@
   margin: 0 0 40px;
 }
 
-.footer_contacts-number {
+.footer__contacts-number {
   display: flex;
   flex-direction: column;
   gap: 2px;
@@ -26,7 +26,7 @@
   gap: 24px;
 }
 
-.footer_contacts-numbers {
+.footer__contacts-numbers {
   display: flex;
   flex-direction: column;
   gap: 16px;
