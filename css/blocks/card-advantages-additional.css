@@ -5,6 +5,15 @@
   text-align: center;
 }
 
+.advantages__additional-list {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 60px;
+  margin: 0 80px;
+  padding: 0;
+  list-style-type: none;
+}
+
 .card-advantages-additional__icon {
   display: flex;
   width: 64px;

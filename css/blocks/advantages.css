@@ -10,11 +10,10 @@
   list-style-type: none;
 }
 
-.advantages__additional-list {
-  display: grid;
-  grid-template-columns: repeat(3, 1fr);
-  gap: 60px;
-  margin: 0 80px;
-  padding: 0;
-  list-style-type: none;
+.advantages__main-list--modified {
+  grid-template-columns: repeat(2, 600px);
+}
+
+.advantages__main-item--long {
+  grid-column: span 2;
 }

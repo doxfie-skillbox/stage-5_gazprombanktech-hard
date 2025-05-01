@@ -17,11 +17,33 @@
   background-color: #8CA3FF;
 }
 
+.card-advantages--blue {
+  background-color: #5E81FF;
+}
+.card-advantages--gray {
+  background-color: #7F8499;
+}
+
+.card-advantages--light {
+  background-color: #F4F6FA;
+}
+
+.card-advantages--slim {
+  flex-direction: column;
+  gap: 72px;
+  justify-content: space-between;
+  height: 100%;
+}
+
 .card-advantages__content {
   padding: 90px 140px 90px 0;
   display: flex;
   flex-direction: column;
   align-items: flex-start;
+}
+
+.card-advantages__content--slim {
+  padding: 60px 60px 0;
 }
 
 .card-advantages__heading {
@@ -30,12 +52,35 @@
   line-height: 36px;
 }
 
+.card-advantages__heading--white {
+  color: #FFFFFF;
+}
+
+
 .card-advantages__description {
   margin: 0;
   font-size: 18px;
   line-height: 24px;
 }
 
+.card-advantages__description--white {
+  color: #FFFFFF;
+}
+
 .card-advantages__btn {
   margin: 32px 0 0 0;
+}
+
+.card-advantages__list {
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+  margin: 0;
+  padding: 0 0 0 20px;
+  color: #FFFFFF;
+}
+
+.card-advantages__item {
+  font-size: 18px;
+  line-height: 24px;
 }

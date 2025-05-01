@@ -1,5 +1,5 @@
 .hero {
-  margin: 0 0 98px;
+  margin: 0 0 100px;
   background-color: #F4F6FA;
 }
 
@@ -30,4 +30,12 @@
   margin: 0 0 48px 0;
   font-size: 18px;
   line-height: 24px;
+}
+
+.hero__content--modified {
+  padding: 196px 0;
+}
+
+.hero__heading--modified {
+  margin: 0 0 48px 0;
 }
