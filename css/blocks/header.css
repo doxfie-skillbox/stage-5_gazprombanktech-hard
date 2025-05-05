@@ -14,27 +14,20 @@
   margin: 0 auto 0 0;
 }
 
-.header__wrapper-buttons {
+.header__btn {
   display: flex;
   align-items: center;
+  justify-content: center;
   padding: 6px;
   border-radius: 12px;
   border: 1px solid #DBDFEC;
 }
 
-.header__btn {
-  align-self: center;
-}
-
-.header__btn--modified {
-  color: #FFFFFF;
-  background-color: #1E222E;
-}
-
-.header__wrapper-buttons-lang {
-  padding: 0;
-}
-
 .header__btn-lang {
-  padding: 20px 12px 20px 22px;
+  padding: 18px 23px;
+  gap: 12px;
+}
+
+.header__btn-lang-icon {
+  flex-shrink: 0;
 }

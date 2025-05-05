@@ -9,6 +9,11 @@
   text-align: center;
 }
 
+.btn--modified {
+  color: #FFFFFF;
+  background-color: #1E222E;
+}
+
 .btn--second {
   padding: 18px 32px;
   font-size: 15px;

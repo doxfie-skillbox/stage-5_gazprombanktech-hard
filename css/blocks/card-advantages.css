@@ -18,9 +18,11 @@
 }
 
 .card-advantages--blue {
+  color: #FFFFFF;
   background-color: #5E81FF;
 }
 .card-advantages--gray {
+  color: #FFFFFF;
   background-color: #7F8499;
 }
 
@@ -52,19 +54,11 @@
   line-height: 36px;
 }
 
-.card-advantages__heading--white {
-  color: #FFFFFF;
-}
-
 
 .card-advantages__description {
   margin: 0;
   font-size: 18px;
   line-height: 24px;
-}
-
-.card-advantages__description--white {
-  color: #FFFFFF;
 }
 
 .card-advantages__btn {
@@ -77,7 +71,6 @@
   gap: 16px;
   margin: 0;
   padding: 0 0 0 20px;
-  color: #FFFFFF;
 }
 
 .card-advantages__item {
